@@ -6,7 +6,8 @@
   */
 
 
-void return_to_98(int *n)
+int return_to_98(int *n)
 {
 	*n = 98;
+	return *n;
 }
